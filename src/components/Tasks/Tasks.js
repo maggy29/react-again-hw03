@@ -76,7 +76,7 @@ render(){
           value={filter}
           onChangeFilter={this.filterTasks}/>}
         {tasks.length > 0 && <TaskList 
-            tasks={tasks} 
+            tasks={filteredTasks} 
             onRemoveTask={this.removeTask}
             onUpdateTask={this.updateCompleted}
         />} 
