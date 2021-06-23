@@ -12,11 +12,11 @@ export default class Tasks extends Component {
   }
 
   componentDidMount () {
-    const tasksInLocalStorage = localStorage.getItem('tasks');
-     if (tasksInLocalStorage) {this.setState({
-         tasks: JSON.parse(tasksInLocalStorage)
-     })
-  }
+  //   const tasksInLocalStorage = localStorage.getItem('tasks');
+  //    if (tasksInLocalStorage) {this.setState({
+  //        tasks: JSON.parse(tasksInLocalStorage)
+  //    })
+  // }
   }
   componentDidUpdate (prevProps, prevState) {
         if (prevState.tasks !== this.state.tasks) {
