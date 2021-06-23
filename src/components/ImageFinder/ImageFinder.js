@@ -68,7 +68,6 @@ export default class ImageFinder extends Component {
     }
 
     render() {
-        console.log( document.documentElement.scrollHeight)
         const {loading, images, largeImageURL} = this.state;
         return(
             <>
